@@ -47,7 +47,6 @@ public class A1_P5_ValidBoard_ORTIZ_BRIAN {
                 }
             }
         }
-
         return "VALID BOARD.";
     }
 
