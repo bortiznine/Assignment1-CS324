@@ -2,9 +2,7 @@ public class A1_P5_ValidBoard_LASTNAME_FIRSTNAME {
 
    public static String name = "LASTNAME_FIRSTNAME";
 
-    public static String validBoard(int n, int [][] grid)   {
-        int diagonalRow1 = -1;
-        int diagonalRow2 = -1;
+    public static String validBoard(int n, int[][] grid) {
 
         for (int i = 1; i <= n; i++) {
             int rowCount = 0;
@@ -20,6 +18,7 @@ public class A1_P5_ValidBoard_LASTNAME_FIRSTNAME {
             }
         }
 
+        // Check columns for no 1's or two or more 1's
         for (int j = 1; j <= n; j++) {
             int colCount = 0;
             for (int i = 1; i <= n; i++) {
@@ -33,42 +32,26 @@ public class A1_P5_ValidBoard_LASTNAME_FIRSTNAME {
                 return "Column " + j + " has two or more 1's.";
             }
         }
-
-        boolean ascendingDiagonalIssue = false;
-        boolean descendingDiagonalIssue = false;
-
-        for (int i = 1; i <= n-1; i++) {
-            for (int j = 1; j <= n-1; j++) {
+        
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= n; j++) {
                 if (grid[i][j] == 1) {
-                    // Check ascending diagonal
-                    if (i < n && j < n && grid[i + 1][j + 1] == 1) {
-                        ascendingDiagonalIssue = true;
-                        diagonalRow1 = i;
-                        diagonalRow2 = i + 1;
-                    }
-                    // Check descending diagonal
-                    if (i < n && j > 1 && grid[i + 1][j - 1] == 1) {
-                        descendingDiagonalIssue = true;
-                        diagonalRow1 = i;
-                        diagonalRow2 = i + 1;
+                    for (int x = 1; x <= n; x++) {
+                        for (int y = 1; y <= n; y++) {
+                            if (grid[x][y] == 1 && (i != x || j != y)) {
+                                if ((i - x == j - y) || (i - x == y - j)) {
+                                    return "The 1's in rows " + i + " and " + x + " are in the same diagonal.";
+                                }
+                            }
+                        }
                     }
                 }
             }
         }
 
-        if (ascendingDiagonalIssue && descendingDiagonalIssue) {
-            return "Both diagonal issues found.";
-        } else if (ascendingDiagonalIssue) {
-            return "Ascending diagonal issue found.";
-        } else if (descendingDiagonalIssue) {
-            return "Descending diagonal issue found.";
-        }
-
-
-
-        // If no issues are found
         return "VALID BOARD.";
     }
+
 
 
 
