@@ -1,6 +1,6 @@
-public class A1_P5_ValidBoard_LASTNAME_FIRSTNAME {
+public class A1_P5_ValidBoard_ORTIZ_BRIAN {
 
-   public static String name = "LASTNAME_FIRSTNAME";
+   public static String name = "ORTIZ_BRIAN";
 
     public static String validBoard(int n, int[][] grid) {
 
@@ -18,7 +18,6 @@ public class A1_P5_ValidBoard_LASTNAME_FIRSTNAME {
             }
         }
 
-        // Check columns for no 1's or two or more 1's
         for (int j = 1; j <= n; j++) {
             int colCount = 0;
             for (int i = 1; i <= n; i++) {
@@ -32,7 +31,7 @@ public class A1_P5_ValidBoard_LASTNAME_FIRSTNAME {
                 return "Column " + j + " has two or more 1's.";
             }
         }
-        
+
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= n; j++) {
                 if (grid[i][j] == 1) {
