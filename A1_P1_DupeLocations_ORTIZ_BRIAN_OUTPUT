@@ -1,0 +1,56 @@
+C:\Users\pengu\.jdks\openjdk-18.0.1.1\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.2\lib\idea_rt.jar=54427:C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.2\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath "C:\Users\pengu\Documents\School Junk\CS324\Asst 1, cs-324-f23\Asst 1, cs-324-f23\out\production\Asst 1, cs-324-f23" A1_P1_DupeLocations_ORTIZ_BRIAN
+
+ORTIZ_BRIAN
+A1_P1_DupeLocations.
+Determine if two values in 2D array are equal.
+
+
+Test 1, n = 5:  Duplicate elements found:
+  A[2][5] = 999, and 
+  A[4][3] = 999, and 
+
+Test 2, n = 5:  Duplicate elements found:
+  A[3][4] = 46, and 
+  A[4][1] = 46, and 
+
+Test 3, n = 4:  There are NO duplicate elements.
+
+Test 4, n = 4:  Duplicate elements found:
+  A[1][3] = 333, and 
+  A[4][2] = 333, and 
+
+Test 5, n = 4:  Duplicate elements found:
+  A[3][2] = 87, and 
+  A[3][4] = 87, and 
+
+Test 6, n = 6:  Duplicate elements found:
+  A[2][5] = 82, and 
+  A[4][1] = 82, and 
+
+Test 7, n = 8:  Duplicate elements found:
+  A[4][1] = 104, and 
+  A[6][8] = 104, and 
+
+Test 8, n = 10:  There are NO duplicate elements.
+
+Test 9, n = 15:  Duplicate elements found:
+  A[2][14] = 743, and 
+  A[15][13] = 743, and 
+
+Test 10, n = 20:  Duplicate elements found:
+  A[10][17] = 703, and 
+  A[19][18] = 703, and 
+
+Test 11, n = 25:  There are NO duplicate elements.
+
+Test 12, n = 30:  Duplicate elements found:
+  A[7][12] = 133, and 
+  A[13][25] = 133, and 
+
+Test 13, n = 41:  Duplicate elements found:
+  A[26][23] = 1671, and 
+  A[33][1] = 1671, and 
+
+Test 14, n = 42:  There are NO duplicate elements.
+
+Process finished with exit code 0

@@ -1,0 +1,36 @@
+C:\Users\pengu\.jdks\openjdk-18.0.1.1\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.2\lib\idea_rt.jar=54464:C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.2\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath "C:\Users\pengu\Documents\School Junk\CS324\Asst 1, cs-324-f23\Asst 1, cs-324-f23\out\production\Asst 1, cs-324-f23" A1_P2_SameRows_ORTIZ_BRIAN
+
+ORTIZ_BRIAN
+A1_P2_SameRows
+Determine if 2D array has two identical rows.
+
+
+Test 1:  There are NO identical rows.
+
+Test 2:  Rows 2 and 4 are IDENTICAL!
+
+Test 3:  Rows 2 and 3 are IDENTICAL!
+
+Test 4:  There are NO identical rows.
+
+Test 5:  There are NO identical rows.
+
+Test 6:  Rows 2 and 4 are IDENTICAL!
+
+Test 7:  Rows 3 and 5 are IDENTICAL!
+
+Test 8:  There are NO identical rows.
+
+Test 9:  Rows 9 and 14 are IDENTICAL!
+
+Test 10:  There are NO identical rows.
+
+Test 11:  Rows 7 and 17 are IDENTICAL!
+
+Test 12:  Rows 8 and 16 are IDENTICAL!
+
+Test 13:  There are NO identical rows.
+
+Test 14:  Rows 15 and 28 are IDENTICAL!
+
+Process finished with exit code 0

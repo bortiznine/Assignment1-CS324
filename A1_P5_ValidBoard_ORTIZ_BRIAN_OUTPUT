@@ -1,0 +1,37 @@
+C:\Users\pengu\.jdks\openjdk-18.0.1.1\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.2\lib\idea_rt.jar=54554:C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.2\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath "C:\Users\pengu\Documents\School Junk\CS324\Asst 1, cs-324-f23\Asst 1, cs-324-f23\out\production\Asst 1, cs-324-f23" A1_P5_ValidBoard_ORTIZ_BRIAN
+
+ORTIZ_BRIAN
+A1_P5_ValidBoard
+
+Determine if 2D array has exactly one 1 in every row
+and columns and that no diagonal has more than two 1's
+======================================================
+
+Test 1:  VALID BOARD.
+
+Test 2:  Row 6 has two or more 1's.
+
+Test 3:  Row 5 has no 1's.
+
+Test 4:  Column 2 has two or more 1's.
+
+Test 5:  The 1's in rows 4 and 8 are in the same diagonal.
+
+Test 6:  The 1's in rows 3 and 7 are in the same diagonal.
+
+Test 7:  Row 9 has two or more 1's.
+
+Test 8:  VALID BOARD.
+
+Test 9:  The 1's in rows 3 and 8 are in the same diagonal.
+
+Test 10:  Row 5 has no 1's.
+
+Test 11:  VALID BOARD.
+
+Test 12:  Column 7 has two or more 1's.
+
+Test 13:  The 1's in rows 2 and 8 are in the same diagonal.
+
+
+Process finished with exit code 0

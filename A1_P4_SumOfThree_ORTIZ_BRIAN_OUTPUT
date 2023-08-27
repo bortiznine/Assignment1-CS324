@@ -1,0 +1,31 @@
+C:\Users\pengu\.jdks\openjdk-18.0.1.1\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.2\lib\idea_rt.jar=54532:C:\Program Files\JetBrains\IntelliJ IDEA 2021.3.2\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath "C:\Users\pengu\Documents\School Junk\CS324\Asst 1, cs-324-f23\Asst 1, cs-324-f23\out\production\Asst 1, cs-324-f23" A1_P4_SumOfThree_ORTIZ_BRIAN
+
+ORTIZ_BRIAN
+A1_P4_SumOfThree.
+Find three array elements with desired sum.
+
+
+Test 1,  n = 5, g = 24:  A[2] = 3, A[3] = 6, and A[5] = 15 sum to 24.
+
+Test 2,  n = 4, g = 220:  A[1] = 10, A[3] = 60, and A[4] = 150 sum to 220.
+
+Test 3,  n = 6, g = 67:  No three elements in A sum to 67.
+
+Test 4,  n = 8, g = 96:  A[2] = 8, A[5] = 37, and A[7] = 51 sum to 96.
+
+Test 5,  n = 8, g = 113:  No three elements in A sum to 113.
+
+Test 6,  n = 10, g = 229:  A[3] = 35, A[6] = 79, and A[10] = 115 sum to 229.
+
+Test 7,  n = 20, g = 475:  A[6] = 85, A[12] = 155, and A[19] = 235 sum to 475.
+
+Test 8,  n = 29, g = 890:  No three elements in A sum to 890.
+
+Test 9,  n = 40, g = 1128:  A[23] = 282, A[35] = 405, and A[38] = 441 sum to 1128.
+
+Test 10,  n = 31, g = 2130:  No three elements in A sum to 2130.
+
+Test 11,  n = 31, g = 2144:  A[8] = 415, A[20] = 789, and A[26] = 940 sum to 2144.
+
+
+Process finished with exit code 0
